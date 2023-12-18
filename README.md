@@ -23,11 +23,11 @@ Calculate the gap between two surfaces from .stl fractured core samples
    ### Aperture distribution
    ![Histogram](https://github.com/mfdali/copy-fracture-2D/blob/main/histogram.png?raw=true)
 
-5. ## Numerical Simulation
+5. ## 2.5D Numerical Simulation
    
    File: [stokes-fracture_core-sample.py](https://github.com/mfdali/copy-fracture-2D/blob/main/stokes-fracture_core-sample.py)
    
-   Simulate single-phase flow through fracture using the distance between plates extracted in fracture_aperture_from_core_sample_url.ipynb
+   Create 2D mesh and simulate single-phase flow through fracture using the distance between plates extracted in fracture_aperture_from_core_sample_url.ipynb
 
    ### Velocity field
    ![Velocity](https://github.com/mfdali/copy-fracture-2D/blob/main/stokes-ss-hvar-ILB_4_15_2e5-0-u.png?raw=true)
