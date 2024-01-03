@@ -34,15 +34,15 @@ Calculate the gap between two surfaces from .stl fractured core samples
 
 4. ## Mesh Test
    
-   ![MeshTest](https://github.com/mfdali/copy-fracture-2D/blob/main/mesh_test_ILB_4_15.png?raw=true)
+   ![MeshTest](https://github.com/lmmp-puc-rio/copy-fracture-2D/blob/main/mesh_test_ILB_4_15.png?raw=true)
    
 5. ## Manipulate fracture aperture
 
-   File: [fracture_simulation_analysis.ipynb](https://github.com/mfdali/copy-fracture-2D/blob/main/fracture_simulation_analysis.ipynb)
+   File: [fracture_simulation_analysis.ipynb](ttps://github.com/lmmp-puc-rio/copy-fracture-2D/blob/main/fracture_simulation_analysis.ipynb)
    
    Manipulate the gap between the two surfaces of the fracture. Create another aperture based on the original fracture aperture in step 2.
    
-   $new aperture = original z height - \Delta height$
+   $new \ aperture = original \ a^2_h - \Delta height$
 
    Example:
    
@@ -61,4 +61,4 @@ Calculate the gap between two surfaces from .stl fractured core samples
    
    ### Permeability Graph: Simulation x Cubic law
    
-   ![HvarGraph](https://github.com/mfdali/copy-fracture-2D/blob/main/hvar_ILB_4_15.png?raw=true)
+   ![HvarGraph](ttps://github.com/lmmp-puc-rio/copy-fracture-2D/blob/main/mesh_test_ILB_4_15.png?raw=true)
