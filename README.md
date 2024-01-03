@@ -48,7 +48,7 @@ Calculate the gap between two surfaces from .stl fractured core samples
    
    $\Delta h = 0.02 mm$
 
-   | Case     | \Delta height (mm) | \bar{a}^2_h (mm) | max({a}^2_h) (mm) | k_simulation |
+   | Case     | $\Delta height$ (mm) | $\bar{a}^2_h$ (mm) | max(${a}^2_h$) (mm) | $k_simulation$ |
    | ----------- | ----------- | ----------- | ----------- | ----------- |
    | 0    | 0.02 | 0.180 | 2.17 |2322.58 |
    | 1    | 0.04 |  0.160 | 2.15 | 1787.41 |
