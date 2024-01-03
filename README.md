@@ -48,7 +48,7 @@ Calculate the gap between two surfaces from .stl fractured core samples
    
    $\Delta h = 0.02 mm$
 
-   | Case     | $\Delta height$ (mm) | $\bar{a}^2_h$ (mm) | max(${a}^2_h$) (mm) | $k_simulation$ |
+   | Case     | $\Delta height$ (mm) | $\bar{a}^2_h$ (mm) | max(${a}^2_h$) (mm) | $k_{simulation}$ |
    | ----------- | ----------- | ----------- | ----------- | ----------- |
    | 0    | 0.02 | 0.180 | 2.17 |2322.58 |
    | 1    | 0.04 |  0.160 | 2.15 | 1787.41 |
@@ -57,8 +57,8 @@ Calculate the gap between two surfaces from .stl fractured core samples
    | 4 | 0.10 | 0.100 | 2.09 | 607.93 |
 
    Fracture permeability equation
-   $k_frac = \frac{\bar{a}^2_h}{12}$
+   $k_{frac} = \frac{\bar{a}^2_h}{12}$
    
    ### Permeability Graph: Simulation x Cubic law
    
-   ![HvarGraph](ttps://github.com/lmmp-puc-rio/copy-fracture-2D/blob/main/hvar_ILB_4_15.png?raw=true)
+   ![HvarGraph](https://github.com/lmmp-puc-rio/copy-fracture-2D/blob/main/hvar_ILB_4_15.png?raw=true)
