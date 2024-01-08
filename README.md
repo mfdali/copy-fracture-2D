@@ -7,6 +7,7 @@ Calculate the gap between two surfaces from .stl fractured core samples
 
 1. ## Extract csv file
    From a stl file get the surface points of each side of the core sample. Extract the csv file.
+   
    Tutorial: [Tutorial.pptx](https://github.com/lmmp-puc-rio/copy-fracture-2D/blob/main/doc/)
 
    ### Fracture Surface
