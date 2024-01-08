@@ -3,42 +3,43 @@ Get aperture of real fractured core sample
 
 Calculate the gap between two surfaces from .stl fractured core samples
 
-![Core sample](https://github.com/mfdali/copy-fracture-2D/blob/main/ILB-4-15_git.png?raw=true)
+![Core sample](https://github.com/lmmp-puc-rio/copy-fracture-2D/blob/main/ILB-4-15_git.png?raw=true)
 
 1. ## Extract csv file
    From a stl file get the surface points of each side of the core sample. Extract the csv file.
+   Tutorial: [Tutorial.pptx](https://github.com/lmmp-puc-rio/copy-fracture-2D/blob/main/doc/)
 
    ### Fracture Surface
-   ![Surface A](https://github.com/mfdali/copy-fracture-2D/blob/main/ILB-4-15_A.png?raw=true)
+   ![Surface A](https://github.com/lmmp-puc-rio/copy-fracture-2D/blob/main/ILB-4-15_A.png?raw=true)
 
-2. ## Calculate distance between surfaces
+3. ## Calculate distance between surfaces
    
-   File: [fracture_aperture_from_core_sample_url.ipynb](https://github.com/mfdali/copy-fracture-2D/blob/main/fracture_aperture_from_core_sample_url.ipynb)
+   File: [fracture_aperture_from_core_sample_url.ipynb](https://github.com/lmmp-puc-rio/copy-fracture-2D/blob/main/src/fracture_aperture_from_core_sample_url.ipynb)
    
    Load the two csv files with the surface points, calculate and save the fracture aperture.
    
    ### Fracture Aperture
-   ![Heatmap](https://github.com/mfdali/copy-fracture-2D/blob/main/heatmap.png?raw=true)
+   ![Heatmap](https://github.com/lmmp-puc-rio/copy-fracture-2D/blob/main/heatmap.png?raw=true)
 
    ### Aperture distribution
-   ![Histogram](https://github.com/mfdali/copy-fracture-2D/blob/main/histogram.png?raw=true)
+   ![Histogram](https://github.com/lmmp-puc-rio/copy-fracture-2D/blob/main/histogram.png?raw=true)
 
-3. ## 2.5D Numerical Simulation
+4. ## 2.5D Numerical Simulation
    
-   File: [stokes-fracture_core-sample.py](https://github.com/mfdali/copy-fracture-2D/blob/main/stokes-fracture_core-sample.py)
+   File: [stokes-fracture_core-sample.py](https://github.com/lmmp-puc-rio/copy-fracture-2D/blob/main/src/stokes-fracture_core-sample.py)
    
    Create 2D mesh and simulate single-phase flow through fracture using the distance between plates extracted in fracture_aperture_from_core_sample_url.ipynb
 
    ### Velocity field
-   ![Velocity](https://github.com/mfdali/copy-fracture-2D/blob/main/stokes-ss-hvar-ILB_4_15_2e5-0-u.png?raw=true)
+   ![Velocity](https://github.com/lmmp-puc-rio/copy-fracture-2D/blob/main/stokes-ss-hvar-ILB_4_15_2e5-0-u.png?raw=true)
 
-4. ## Mesh Test
+5. ## Mesh Test
    
    ![MeshTest](https://github.com/lmmp-puc-rio/copy-fracture-2D/blob/main/mesh_test_ILB_4_15.png?raw=true)
    
-5. ## Manipulate fracture aperture
+6. ## Manipulate fracture aperture
 
-   File: [fracture_simulation_analysis.ipynb](https://github.com/lmmp-puc-rio/copy-fracture-2D/blob/main/fracture_simulation_analysis.ipynb)
+   File: [fracture_simulation_analysis.ipynb](https://github.com/lmmp-puc-rio/copy-fracture-2D/blob/main/src/fracture_simulation_analysis.ipynb)
    
    Manipulate the gap between the two surfaces of the fracture. Create another aperture based on the original fracture aperture in step 2.
    
